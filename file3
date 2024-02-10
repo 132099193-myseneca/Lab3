@@ -1,0 +1,5 @@
+def text_file(name):
+    with open('output.txt', 'w') as file:
+        file.write(f"Hello, {name}!")
+
+text_file("Adil Reza Khan")
