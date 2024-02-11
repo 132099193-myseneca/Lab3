@@ -3,3 +3,8 @@ def text_file(name):
         file.write(f"Hello, {name}!")
 
 text_file("Adil Reza Khan")
+
+def helloWorld():
+        print(‘Hello World’)
+
+helloWorld()
